@@ -1,0 +1,134 @@
+.container{
+    display:flex;               
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+background-color: blue;
+flex-basis: 100%;
+color: white;
+
+}
+footer{
+flex-basis: 100%;
+background-color: blue;
+color:white;
+}
+
+
+main{
+    background-color: rgb(150, 150, 212);
+display: flex;
+flex-basis: 100%;
+
+
+color: black;
+}
+.top{
+    flex-basis: 100%;
+    background-color:navy;
+    color:white;
+    text-align: right;
+    padding: 1em;
+}
+.bottom{
+   flex-basis: 100%;
+    color:white;
+   background-color: blue;
+   margin-left: 1em;
+   padding-left: 1em;
+   padding-bottom: 1em;
+}
+.bottom-center{
+    padding:2em;
+}
+.title{
+    padding-top: 1em;
+    border: grey solid;
+   color:white;
+    
+}
+.country{
+    border: grey solid;
+   padding-top: 0.5em;
+   color:white;
+}
+.input{
+text-align: right;
+}
+h4{
+    background-color:navy;
+    color:white;
+}
+a.country{
+   color: black;
+}
+
+
+.panel{
+ background-color: white;
+ margin-top: 1.5em;
+
+}
+.tags{
+    color:white;
+}
+
+
+.photo{
+    border: solid 1pt black ; 
+}
+label{
+    background-color: navy;
+    padding: 0 0.1em 0 0.1em;
+    margin: 0.5em;
+    font-size:small;
+}
+.media-image{
+    border:   black solid ;
+    padding:2em;
+}
+.x{
+    flex-basis: 10 em;
+    margin-left: 2ems;
+}
+.media-objects{
+    flex: 100em;
+    text-align: left;
+}
+.contact{
+    flex: 100em;
+    margin-top: 1em;
+}
+.col-md-2{
+    border:solid 1px grey;
+   
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+.thumbnail{
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(150, 150, 212);
+}
+.time{
+    text-align: center;
+}
+.copy{
+    text-align: center;
+    background-color: navy;
+}
+.s{
+    margin-left: 2em;
+}
+.buttongroup{
+    color:white;
+}
+.col-md-3{
+    margin-top: 1em;
+}
